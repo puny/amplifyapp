@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginPage from './pages/LoginPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
         >
           Learn React !!
         </a>
+
+        <Router>
+          <Routes>
+            <Route path="/login" element={<LoginPage />} />
+          </Routes>
+        </Router>
       </header>
     </div>
   );
