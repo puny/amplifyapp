@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+{/* 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +20,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React !!
-        </a>
+        </a> */}
 
         <Router>
           <Routes>
